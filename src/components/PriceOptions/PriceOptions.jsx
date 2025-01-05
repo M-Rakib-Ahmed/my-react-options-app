@@ -52,11 +52,13 @@ const PriceOptions = () => {
  const [price, setPrice]=useState([])
   
     return (
-        <div>
+        <div className='m-12'>
             <h2>Phones{pricingOptions.length}</h2>
-            {
+            <div className='grid lg:grid-cols-3 gap-6'>
+                {
              pricingOptions.map(option => <Priceoption key={option.id} option={option}></Priceoption>)
             }
+            </div>
         </div>
     );
 };

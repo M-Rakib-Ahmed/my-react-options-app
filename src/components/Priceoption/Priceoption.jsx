@@ -4,7 +4,7 @@ const Priceoption = ({option}) => {
     const {name, id, price, features}=option
     
     return (
-        <div>
+        <div className="bg-blue-500 rounded-lg p-5 text-white">
         <h2 >
             <span className="text-7xl">{price}</span>
             <span className="text-2xl">/mon</span>
