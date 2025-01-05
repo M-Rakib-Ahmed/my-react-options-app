@@ -42,8 +42,8 @@ const PriceOptions = () => {
         "Personal trainer sessions",
         "Nutritional guidance",
         "Private locker",
-        "Massage therapy sessions",
-        "24/7 gym access"
+        "Massage therapy sessions"
+        
       ]
     },
     
@@ -60,6 +60,7 @@ const PriceOptions = () => {
             }
             </div>
         </div>
+            
     );
 };
 
