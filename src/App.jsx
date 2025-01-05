@@ -1,8 +1,12 @@
+import Daisyui from "./components/Daisyui/Daisyui";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-center uppercase text-3xl">hello react app</h1>
+      
+      <Navbar></Navbar>
+      <Daisyui></Daisyui>
     </div>
   );
 };
