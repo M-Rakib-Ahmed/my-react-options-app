@@ -15,11 +15,11 @@ const Navbar = () => {
     return (
         <div className="  bg-yellow-200 p-6">
             {
-                open===true? <FaWindowClose  onClick={()=> setOpen(!open)}className="text-2xl text-black"></FaWindowClose>:<AiOutlineMenu  onClick={()=> setOpen(!open)}className="text-2xl text-black"></AiOutlineMenu>
+                open===true? <FaWindowClose  onClick={()=> setOpen(!open)}className="text-2xl md:hidden text-black"></FaWindowClose>:<AiOutlineMenu  onClick={()=> setOpen(!open)}className="text-2xl text-black md:hidden"></AiOutlineMenu>
             }
          <nav className="text-black bg-yellow-200">
          
-           <ul className={`md:flex absolute duration-1000 bg-yellow-200 px-6 rounded-xl ${open? "top-16":"-top-60"}`}>
+           <ul className={`md:flex absolute md:static duration-1000 bg-yellow-200 px-6 rounded-xl ${open? "top-16":"-top-60"}`}>
             {
                 routes.map(route => <Link key={route.id} route={route}></Link>)
             }

@@ -6,7 +6,7 @@ const App = () => {
     <div>
       
       <Navbar></Navbar>
-      <Daisyui></Daisyui>
+      {/* <Daisyui></Daisyui> */}
     </div>
   );
 };
