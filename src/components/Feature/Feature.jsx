@@ -1,7 +1,6 @@
 import { TiTick } from "react-icons/ti";
 
 const Feature = ({feature}) => {
-    console.log(feature);
     
     return (
         <div>
